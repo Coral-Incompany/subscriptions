@@ -1,0 +1,161 @@
+<html>
+	<head>
+	<style>
+		
+body{
+	background-color:black;
+}
+hr{
+	margin:0 15px;
+}
+.card1,.card2,.card3 {
+	width:300px;
+	height:520px;
+}
+.licence {
+	text-align:center;
+	font-size:30px;
+
+}
+#price {
+	
+	font-size:50px;	
+}
+.feautures1 {
+	font-size:20px;
+	list-style-image:url('./oranget.png');
+}
+.feautures2 {
+	font-size:20px;
+	list-style-image:url('./bluet.png');
+}
+.feautures3 {
+	font-size:20px;
+	list-style-image:url('./greent.png');
+}
+
+.all {
+	position: relative;
+	margin:90px;
+	gap:20px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.card1,.card2,.card3 {
+	background-color:white;
+	margin-left:5px;
+	border-radius:10px;
+}
+.plan1{
+	background-color:#d3c9c9;
+	border-radius:5px;
+	text-align:center;
+	padding:1px;
+	width:200px;
+	margin-left:50px;
+	cursor: pointer;
+}
+.plan2{ 
+	background-color:white;
+	border:solid black 1px;
+	border-radius:10px;
+	text-align:center;
+	padding:1px;
+	width:200px;
+	margin-left:50px;
+	cursor: pointer;
+}
+.plan3{
+	padding:1px;
+	background-color:green;
+	border-radius:10px;
+	text-align:center;
+	width:200px;
+	margin-left:50px;
+	color:white;
+	cursor: pointer;
+}
+.price1,.price2,.price3{ 
+	text-align:center;
+	margin-top:25px;
+}
+.plan1:hover,.plan2:hover,.plan3:hover {
+	color:#0dcaf0;
+	background-color: black;
+}
+.card1:hover,.card2:hover,.card3:hover {
+	 box-shadow: 2px 5px 6px 6px #17c994;;
+}
+.about {
+	font-size:20px;
+	text-align:center;
+}
+	</style>
+	</head>
+	<body>
+<div class="all">
+	<div class="card1">
+		
+		<p class="price1"><span id="price"><b>$39</b></span> /month</p>
+		<p style="color:orange;" class="licence">Basic Lisence</p>
+		<p class="about">our governement backed plan desogned to keep your business legally and secure</p>
+		<hr class="ln">
+		<div class="feautures1">
+		<ul>
+			<li>secure your customer usage</li>
+			<li>View basic analytics</li>
+			<li>Up to 350 customer profiles</li>
+			<li>Custom network name</li>
+		</ul>
+		</div>
+		<div class="plan1">
+			<p>Your current plan</p>
+		</div>
+	</div>
+
+
+
+	<div class="card2">
+		
+		<p class="price2"><span id="price"><b>$55</b></span> /month</p>
+		<p style="color:blue;" class="licence">Social Lisence</p>
+		<p class="about">Unlimited analytics, plans, demographic insights. All you need to grow-up your business</p>
+		<hr class="ln">
+		<div class="feautures2">
+		<ul>
+			<li>Add your own branding</li>
+			<li>View popularity analytics</li>
+			<li>Up to 1500 customer profiles</li>
+			<li>View demographic insights</li>
+		</ul>
+		</div>
+		<div class="plan2">
+			<p>Upgrade to Social</p>
+		</div>
+	</div>
+
+
+
+	<div class="card3">
+		
+		<p class="price3"><span id="price"><b>$99</b></span> /month</p>
+		<p style="color:lightgreen;" class="licence">Marketing Lisence</p>
+		<p class="about">Unlock powerfull time-saving tools for creating email delivery and collecting marketing data</p>
+		<hr class="ln">
+		<div class="feautures3">
+		<ul>
+			<li>Collect marketing data</li>
+			<li>Design your emails</li>
+			<li>Email campaigns & interactions</li>
+			<li>View your customer's profiles</li>
+		</ul>
+		</div>
+		<div class="plan3">
+			<p>Upgrade to Marketing</p>
+		</div>
+	</div>
+</div>
+	</body>
+</html>
